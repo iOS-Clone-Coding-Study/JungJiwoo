@@ -31,7 +31,7 @@ extension MainVC: UITableViewDataSource {
             cell.selectionStyle = .none
             return cell
         } else if indexPath.row == 1 {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: BannerListTVC.identifier) as? BannerListTVC else {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: TopBannerListTVC.identifier) as? TopBannerListTVC else {
                 return UITableViewCell()
             }
             cell.selectionStyle = .none
@@ -133,11 +133,11 @@ extension MainVC: UITableViewDelegate {
         } else if indexPath.row == 1 {
             return 230
         } else if indexPath.row == 2 {
-            return 225
+            return 240
         } else if indexPath.row == 3 {
             return 150
         } else if indexPath.row == 4 {
-            return 230
+            return 240
         } else if indexPath.row == 5 {
             return 210
         } else if indexPath.row == 6 {
@@ -176,16 +176,14 @@ extension MainVC {
     private func setTableView() {
         mainTableView.delegate = self
         mainTableView.dataSource = self
-        
-        mainTableView.separatorColor = .clear
     }
     
     func setTableViewNib() {
         let bannerNib = UINib(nibName: "MainBannerTVC", bundle: nil)
         mainTableView.register(bannerNib, forCellReuseIdentifier: MainBannerTVC.identifier)
         
-        let bannerListNib = UINib(nibName: "BannerListTVC", bundle: nil)
-        mainTableView.register(bannerListNib, forCellReuseIdentifier: BannerListTVC.identifier)
+        let bannerListNib = UINib(nibName: "TopBannerListTVC", bundle: nil)
+        mainTableView.register(bannerListNib, forCellReuseIdentifier: TopBannerListTVC.identifier)
         
         let spotNib = UINib(nibName: "OurSpotListTVC", bundle: nil)
         mainTableView.register(spotNib, forCellReuseIdentifier: OurSpotListTVC.identifier)

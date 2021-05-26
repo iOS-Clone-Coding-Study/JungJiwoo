@@ -22,19 +22,9 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="imD-Gb-vBU">
-                        <rect key="frame" x="25" y="65" width="398" height="1"/>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="1" id="eYf-7b-6ON"/>
-                        </constraints>
-                    </view>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="imD-Gb-vBU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="DBq-Fw-8hD"/>
                     <constraint firstItem="zhM-Az-XNu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="POq-fe-6P3"/>
-                    <constraint firstItem="imD-Gb-vBU" firstAttribute="top" secondItem="zhM-Az-XNu" secondAttribute="bottom" constant="10" id="WZA-L1-iDG"/>
-                    <constraint firstAttribute="trailing" secondItem="imD-Gb-vBU" secondAttribute="trailing" constant="25" id="hNC-Sh-HRN"/>
                     <constraint firstItem="zhM-Az-XNu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="lzi-KZ-IRX"/>
                 </constraints>
             </tableViewCellContentView>

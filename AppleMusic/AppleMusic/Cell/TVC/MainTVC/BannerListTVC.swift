@@ -10,6 +10,7 @@ import UIKit
 class BannerListTVC: UITableViewCell {
     static let identifier = "BannerListTVC"
     
+    @IBOutlet var bannerCollectionView: UICollectionView!
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var bannerListTitleLabel: UILabel!
     @IBOutlet var categoryTitleLabel: UILabel!
