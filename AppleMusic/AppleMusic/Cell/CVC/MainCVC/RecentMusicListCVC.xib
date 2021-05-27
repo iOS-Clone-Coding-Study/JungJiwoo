@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecentMusicListCVC" id="gTV-IL-0wX" customClass="RecentMusicListCVC" customModule="AppleMusic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="277" height="457"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="277" height="457"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pB7-Vz-EmM">
+                        <rect key="frame" x="0.0" y="160" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUm-p4-UzR">
+                        <rect key="frame" x="0.0" y="181" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RRP-Td-b0c">
+                        <rect key="frame" x="0.0" y="5" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="TuL-Rq-Fbc"/>
+                            <constraint firstAttribute="width" constant="150" id="V9q-3V-cio"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80p-z6-bZD">
+                        <rect key="frame" x="0.0" y="367" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45O-bH-R1I">
+                        <rect key="frame" x="0.0" y="388" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RTZ-vO-7fT">
+                        <rect key="frame" x="0.0" y="212" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="4TI-Yn-6He"/>
+                            <constraint firstAttribute="height" constant="150" id="gSX-DG-SH7"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="RTZ-vO-7fT" firstAttribute="top" secondItem="wUm-p4-UzR" secondAttribute="bottom" constant="10" id="28u-DR-CLX"/>
+                <constraint firstItem="RRP-Td-b0c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Epc-sk-ItQ"/>
+                <constraint firstItem="80p-z6-bZD" firstAttribute="leading" secondItem="RTZ-vO-7fT" secondAttribute="leading" id="Lcf-ce-ztY"/>
+                <constraint firstItem="45O-bH-R1I" firstAttribute="leading" secondItem="RTZ-vO-7fT" secondAttribute="leading" id="P5z-Tj-ybg"/>
+                <constraint firstItem="45O-bH-R1I" firstAttribute="top" secondItem="80p-z6-bZD" secondAttribute="bottom" id="c8f-cp-JUB"/>
+                <constraint firstItem="wUm-p4-UzR" firstAttribute="leading" secondItem="RRP-Td-b0c" secondAttribute="leading" id="eV1-Qf-zx3"/>
+                <constraint firstItem="RRP-Td-b0c" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="neK-MN-7u6"/>
+                <constraint firstItem="pB7-Vz-EmM" firstAttribute="top" secondItem="RRP-Td-b0c" secondAttribute="bottom" constant="5" id="nvk-7A-KFM"/>
+                <constraint firstItem="80p-z6-bZD" firstAttribute="top" secondItem="RTZ-vO-7fT" secondAttribute="bottom" constant="5" id="o1m-dj-2JA"/>
+                <constraint firstItem="RTZ-vO-7fT" firstAttribute="leading" secondItem="wUm-p4-UzR" secondAttribute="leading" id="rvY-V2-uj4"/>
+                <constraint firstItem="pB7-Vz-EmM" firstAttribute="leading" secondItem="RRP-Td-b0c" secondAttribute="leading" id="uD4-Qd-yQ9"/>
+                <constraint firstItem="wUm-p4-UzR" firstAttribute="top" secondItem="pB7-Vz-EmM" secondAttribute="bottom" id="yAG-Mg-qs3"/>
+            </constraints>
+            <size key="customSize" width="277" height="457"/>
+            <connections>
+                <outlet property="music2ImageView" destination="RTZ-vO-7fT" id="NhN-yZ-c1M"/>
+                <outlet property="music2SingerLabel" destination="45O-bH-R1I" id="xtk-vt-BaC"/>
+                <outlet property="music2TitleLabel" destination="80p-z6-bZD" id="f5h-X9-hUV"/>
+                <outlet property="musicImageView" destination="RRP-Td-b0c" id="ebm-bf-Fov"/>
+                <outlet property="musicSingerLabel" destination="wUm-p4-UzR" id="fjX-FN-b4R"/>
+                <outlet property="musicTitleLabel" destination="pB7-Vz-EmM" id="WLA-94-n6A"/>
+            </connections>
+            <point key="canvasLocation" x="43" y="12"/>
+        </collectionViewCell>
+    </objects>
+</document>

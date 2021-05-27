@@ -10,6 +10,7 @@ import UIKit
 class MainVC: UIViewController {
 
     @IBOutlet var mainTableView: UITableView!
+    @IBOutlet var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,24 +98,18 @@ extension MainVC: UITableViewDataSource {
             cell.selectionStyle = .none
             return cell
         } else if indexPath.row == 12 {
-            guard let cell = tableView.dequeueReusableCell(withIdentifier: TravelDayTVC.identifier) as? TravelDayTVC else {
-                return UITableViewCell()
-            }
-            cell.selectionStyle = .none
-            return cell
-        } else if indexPath.row == 13 {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: InterviewListTVC.identifier) as? InterviewListTVC else {
                 return UITableViewCell()
             }
             cell.selectionStyle = .none
             return cell
-        } else if indexPath.row == 14 {
+        } else if indexPath.row == 13 {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: ReleasePlanListTVC.identifier) as? ReleasePlanListTVC else {
                 return UITableViewCell()
             }
             cell.selectionStyle = .none
             return cell
-        } else if indexPath.row == 15 {
+        } else if indexPath.row == 14 {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: MoreContentsTVC.identifier) as? MoreContentsTVC else {
                 return UITableViewCell()
             }
@@ -135,31 +130,29 @@ extension MainVC: UITableViewDelegate {
         } else if indexPath.row == 2 {
             return 240
         } else if indexPath.row == 3 {
-            return 150
+            return 155
         } else if indexPath.row == 4 {
             return 240
         } else if indexPath.row == 5 {
             return 210
         } else if indexPath.row == 6 {
-            return 415
+            return 430
         } else if indexPath.row == 7 {
-            return 140
+            return 165
         } else if indexPath.row == 8 {
             return 230
         } else if indexPath.row == 9 {
-            return 230
+            return 250
         } else if indexPath.row == 10 {
-            return 375
+            return 450
         } else if indexPath.row == 11 {
-            return 230
+            return 250
         } else if indexPath.row == 12 {
-            return 230
+            return 150
         } else if indexPath.row == 13 {
-            return 155
+            return 250
         } else if indexPath.row == 14 {
             return 230
-        } else if indexPath.row == 15 {
-            return 250
         } else {
             return 100
         }
@@ -169,8 +162,15 @@ extension MainVC: UITableViewDelegate {
 // MARK: - UI
 extension MainVC {
     private func setUI() {
+        setLabel()
         setTableView()
         setTableViewNib()
+    }
+    
+    func setLabel() {
+        titleLabel.text = "재생 중이 아님"
+        titleLabel.textColor = .black
+        titleLabel.font = .systemFont(ofSize: 15)
     }
     
     private func setTableView() {
@@ -214,9 +214,6 @@ extension MainVC {
         
         let editorNib = UINib(nibName: "EditorPickListTVC", bundle: nil)
         mainTableView.register(editorNib, forCellReuseIdentifier: EditorPickListTVC.identifier)
-        
-        let travelNib = UINib(nibName: "TravelDayTVC", bundle: nil)
-        mainTableView.register(travelNib, forCellReuseIdentifier: TravelDayTVC.identifier)
         
         let interviewNib = UINib(nibName: "InterviewListTVC", bundle: nil)
         mainTableView.register(interviewNib, forCellReuseIdentifier: InterviewListTVC.identifier)

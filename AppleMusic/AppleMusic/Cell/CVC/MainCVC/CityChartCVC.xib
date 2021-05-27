@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CityChartCVC" customModule="AppleMusic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="304" height="213"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AUM-vw-Mtl">
+                        <rect key="frame" x="0.0" y="10" width="150" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="PVf-so-WnL"/>
+                            <constraint firstAttribute="height" constant="150" id="xWQ-TZ-nd2"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZ5-k8-iS5">
+                        <rect key="frame" x="0.0" y="165" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8T-vh-noS">
+                        <rect key="frame" x="0.0" y="186" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="b8T-vh-noS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2p5-ae-5wn"/>
+                <constraint firstItem="EZ5-k8-iS5" firstAttribute="top" secondItem="AUM-vw-Mtl" secondAttribute="bottom" constant="5" id="CBC-Ye-Hzn"/>
+                <constraint firstItem="AUM-vw-Mtl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="Epq-io-Cot"/>
+                <constraint firstItem="b8T-vh-noS" firstAttribute="top" secondItem="EZ5-k8-iS5" secondAttribute="bottom" id="hTn-oY-lQE"/>
+                <constraint firstItem="AUM-vw-Mtl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ilb-wk-twc"/>
+                <constraint firstItem="EZ5-k8-iS5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yC0-iU-IRD"/>
+            </constraints>
+            <size key="customSize" width="304" height="213"/>
+            <connections>
+                <outlet property="cityImageView" destination="AUM-vw-Mtl" id="PlE-YM-wCF"/>
+                <outlet property="subTitleLabel" destination="b8T-vh-noS" id="XPL-Rv-f9r"/>
+                <outlet property="titleLabel" destination="EZ5-k8-iS5" id="Rxu-R2-NnG"/>
+            </connections>
+            <point key="canvasLocation" x="314.49275362318843" y="131.58482142857142"/>
+        </collectionViewCell>
+    </objects>
+</document>

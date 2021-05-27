@@ -23,52 +23,37 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k7M-fx-2rt">
-                        <rect key="frame" x="25" y="41" width="150" height="80"/>
-                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="150" id="9aP-zh-CBy"/>
-                            <constraint firstAttribute="height" constant="80" id="Ric-fd-VI1"/>
-                        </constraints>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7hp-zR-Bwb">
-                        <rect key="frame" x="25" y="126" width="42" height="21"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <nil key="textColor"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wGK-Bo-i5t">
-                        <rect key="frame" x="25" y="157" width="338" height="1"/>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="1" id="ESJ-SA-aYY"/>
-                        </constraints>
-                    </view>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="JsV-Xx-tdj">
+                        <rect key="frame" x="25" y="41" width="338" height="114"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IuA-9o-xQb">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="wGK-Bo-i5t" secondAttribute="trailing" constant="25" id="3H3-Xt-ZDN"/>
+                    <constraint firstItem="JsV-Xx-tdj" firstAttribute="top" secondItem="vYD-m4-Cn7" secondAttribute="bottom" constant="10" id="0I3-GL-EtR"/>
+                    <constraint firstAttribute="bottom" secondItem="JsV-Xx-tdj" secondAttribute="bottom" constant="10" id="4AM-Vv-0z0"/>
+                    <constraint firstItem="JsV-Xx-tdj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="8yd-vp-OMO"/>
                     <constraint firstItem="vYD-m4-Cn7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="G1T-iB-PBx"/>
-                    <constraint firstItem="7hp-zR-Bwb" firstAttribute="top" secondItem="k7M-fx-2rt" secondAttribute="bottom" constant="5" id="OSt-oU-C2V"/>
                     <constraint firstItem="vYD-m4-Cn7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="OeJ-u5-csq"/>
-                    <constraint firstItem="wGK-Bo-i5t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="Pg4-oA-MgH"/>
-                    <constraint firstItem="k7M-fx-2rt" firstAttribute="top" secondItem="vYD-m4-Cn7" secondAttribute="bottom" constant="10" id="Qfg-IR-aWQ"/>
-                    <constraint firstItem="k7M-fx-2rt" firstAttribute="leading" secondItem="vYD-m4-Cn7" secondAttribute="leading" id="VcD-U7-BRB"/>
-                    <constraint firstItem="wGK-Bo-i5t" firstAttribute="top" secondItem="7hp-zR-Bwb" secondAttribute="bottom" constant="10" id="bxa-pv-2qg"/>
-                    <constraint firstItem="7hp-zR-Bwb" firstAttribute="leading" secondItem="k7M-fx-2rt" secondAttribute="leading" id="kc7-eS-2qQ"/>
+                    <constraint firstAttribute="trailing" secondItem="JsV-Xx-tdj" secondAttribute="trailing" constant="25" id="S1z-oK-bg2"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="categoryTitleLabel" destination="7hp-zR-Bwb" id="1Ol-CQ-EIu"/>
-                <outlet property="moodMusicImageView" destination="k7M-fx-2rt" id="Nav-yf-gkj"/>
+                <outlet property="moodCollectionView" destination="JsV-Xx-tdj" id="Pt0-Jd-fra"/>
                 <outlet property="titleLabel" destination="vYD-m4-Cn7" id="3hQ-Nv-MD4"/>
             </connections>
             <point key="canvasLocation" x="-21.739130434782609" y="17.745535714285712"/>
         </tableViewCell>
     </objects>
     <resources>
-        <systemColor name="systemIndigoColor">
-            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

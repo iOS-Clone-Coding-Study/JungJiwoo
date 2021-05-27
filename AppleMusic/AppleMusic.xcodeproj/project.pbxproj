@@ -58,14 +58,87 @@
 		747FFD2226558950006C5F49 /* UpdatePlayListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747FFD2026558950006C5F49 /* UpdatePlayListTVC.xib */; };
 		747FFD2626558968006C5F49 /* EditorPickListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FFD2426558968006C5F49 /* EditorPickListTVC.swift */; };
 		747FFD2726558968006C5F49 /* EditorPickListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747FFD2526558968006C5F49 /* EditorPickListTVC.xib */; };
-		747FFD2B2655897D006C5F49 /* TravelDayTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FFD292655897D006C5F49 /* TravelDayTVC.swift */; };
-		747FFD2C2655897D006C5F49 /* TravelDayTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747FFD2A2655897D006C5F49 /* TravelDayTVC.xib */; };
 		747FFD302655898C006C5F49 /* InterviewListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FFD2E2655898C006C5F49 /* InterviewListTVC.swift */; };
 		747FFD312655898C006C5F49 /* InterviewListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747FFD2F2655898C006C5F49 /* InterviewListTVC.xib */; };
 		747FFD35265589A1006C5F49 /* ReleasePlanListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FFD33265589A1006C5F49 /* ReleasePlanListTVC.swift */; };
 		747FFD36265589A1006C5F49 /* ReleasePlanListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747FFD34265589A1006C5F49 /* ReleasePlanListTVC.xib */; };
 		747FFD3A265589B4006C5F49 /* MoreContentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FFD38265589B4006C5F49 /* MoreContentsTVC.swift */; };
 		747FFD3B265589B4006C5F49 /* MoreContentsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747FFD39265589B4006C5F49 /* MoreContentsTVC.xib */; };
+		7488BD7D265F8D9D00B2ABBC /* RecentMusicListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BD7B265F8D9D00B2ABBC /* RecentMusicListCVC.swift */; };
+		7488BD7E265F8D9D00B2ABBC /* RecentMusicListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD7C265F8D9D00B2ABBC /* RecentMusicListCVC.xib */; };
+		7488BD8E265F906D00B2ABBC /* sunset_blvd.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD81265F906C00B2ABBC /* sunset_blvd.png */; };
+		7488BD8F265F906D00B2ABBC /* co_ep.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD82265F906C00B2ABBC /* co_ep.png */; };
+		7488BD90265F906D00B2ABBC /* sour.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD83265F906C00B2ABBC /* sour.png */; };
+		7488BD91265F906D00B2ABBC /* gemini_single.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD84265F906C00B2ABBC /* gemini_single.png */; };
+		7488BD92265F906D00B2ABBC /* azeb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD85265F906C00B2ABBC /* azeb.png */; };
+		7488BD93265F906D00B2ABBC /* happen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD86265F906D00B2ABBC /* happen.png */; };
+		7488BD94265F906D00B2ABBC /* 모트.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD87265F906D00B2ABBC /* 모트.png */; };
+		7488BD95265F906D00B2ABBC /* cherry_coke.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD88265F906D00B2ABBC /* cherry_coke.png */; };
+		7488BD96265F906D00B2ABBC /* destination_single.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD89265F906D00B2ABBC /* destination_single.png */; };
+		7488BD97265F906D00B2ABBC /* five_ep.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD8A265F906D00B2ABBC /* five_ep.png */; };
+		7488BD98265F906D00B2ABBC /* wonder_ep.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD8B265F906D00B2ABBC /* wonder_ep.png */; };
+		7488BD99265F906D00B2ABBC /* view_single.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD8C265F906D00B2ABBC /* view_single.png */; };
+		7488BD9A265F906D00B2ABBC /* the_other_side.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD8D265F906D00B2ABBC /* the_other_side.png */; };
+		7488BD9D265F916100B2ABBC /* summer_in_snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BD9C265F916100B2ABBC /* summer_in_snow.png */; };
+		7488BDA6265F974B00B2ABBC /* fighting.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDA0265F974A00B2ABBC /* fighting.png */; };
+		7488BDA7265F974B00B2ABBC /* happiness.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDA1265F974B00B2ABBC /* happiness.png */; };
+		7488BDA8265F974B00B2ABBC /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDA2265F974B00B2ABBC /* main.png */; };
+		7488BDA9265F974B00B2ABBC /* party.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDA3265F974B00B2ABBC /* party.png */; };
+		7488BDAA265F974B00B2ABBC /* rest.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDA4265F974B00B2ABBC /* rest.png */; };
+		7488BDAB265F974B00B2ABBC /* fitness.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDA5265F974B00B2ABBC /* fitness.png */; };
+		7488BDAF265F977700B2ABBC /* MoodMusicCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BDAD265F977700B2ABBC /* MoodMusicCVC.swift */; };
+		7488BDB0265F977700B2ABBC /* MoodMusicCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDAE265F977700B2ABBC /* MoodMusicCVC.xib */; };
+		7488BDB5265F99F500B2ABBC /* RadioListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BDB3265F99F500B2ABBC /* RadioListCVC.swift */; };
+		7488BDB6265F99F500B2ABBC /* RadioListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDB4265F99F500B2ABBC /* RadioListCVC.xib */; };
+		7488BDC1265F9C0200B2ABBC /* apple_music1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDB9265F9C0200B2ABBC /* apple_music1.png */; };
+		7488BDC2265F9C0200B2ABBC /* with_sandra.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDBA265F9C0200B2ABBC /* with_sandra.png */; };
+		7488BDC3265F9C0200B2ABBC /* with_ebro.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDBB265F9C0200B2ABBC /* with_ebro.png */; };
+		7488BDC4265F9C0200B2ABBC /* with_kelleigh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDBC265F9C0200B2ABBC /* with_kelleigh.png */; };
+		7488BDC5265F9C0200B2ABBC /* with_nadeska.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDBD265F9C0200B2ABBC /* with_nadeska.png */; };
+		7488BDC6265F9C0200B2ABBC /* pure_throwback.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDBE265F9C0200B2ABBC /* pure_throwback.png */; };
+		7488BDC7265F9C0200B2ABBC /* apple_music_hits.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDBF265F9C0200B2ABBC /* apple_music_hits.png */; };
+		7488BDC8265F9C0200B2ABBC /* back_porch.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDC0265F9C0200B2ABBC /* back_porch.png */; };
+		7488BDCF265F9E2500B2ABBC /* CityChartCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BDCD265F9E2500B2ABBC /* CityChartCVC.swift */; };
+		7488BDD0265F9E2500B2ABBC /* CityChartCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDCE265F9E2500B2ABBC /* CityChartCVC.xib */; };
+		7488BDDB265F9F3400B2ABBC /* tokyo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD3265F9F3300B2ABBC /* tokyo.png */; };
+		7488BDDC265F9F3400B2ABBC /* newYork.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD4265F9F3300B2ABBC /* newYork.png */; };
+		7488BDDD265F9F3400B2ABBC /* busan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD5265F9F3300B2ABBC /* busan.png */; };
+		7488BDDE265F9F3400B2ABBC /* berlin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD6265F9F3300B2ABBC /* berlin.png */; };
+		7488BDDF265F9F3400B2ABBC /* paris.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD7265F9F3300B2ABBC /* paris.png */; };
+		7488BDE0265F9F3400B2ABBC /* seoul.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD8265F9F3300B2ABBC /* seoul.png */; };
+		7488BDE1265F9F3400B2ABBC /* losangeles.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDD9265F9F3300B2ABBC /* losangeles.png */; };
+		7488BDE2265F9F3400B2ABBC /* london.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDDA265F9F3400B2ABBC /* london.png */; };
+		7488BDE6265FA36C00B2ABBC /* TopHunrdredCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BDE4265FA36C00B2ABBC /* TopHunrdredCVC.swift */; };
+		7488BDE7265FA36C00B2ABBC /* TopHunrdredCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDE5265FA36C00B2ABBC /* TopHunrdredCVC.xib */; };
+		7488BDF1265FA3E100B2ABBC /* korea.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDEB265FA3E000B2ABBC /* korea.png */; };
+		7488BDF2265FA3E100B2ABBC /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDEC265FA3E000B2ABBC /* japan.png */; };
+		7488BDF3265FA3E100B2ABBC /* canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDED265FA3E100B2ABBC /* canada.png */; };
+		7488BDF4265FA3E100B2ABBC /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDEE265FA3E100B2ABBC /* uk.png */; };
+		7488BDF5265FA3E100B2ABBC /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDEF265FA3E100B2ABBC /* usa.png */; };
+		7488BDF6265FA3E100B2ABBC /* global.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDF0265FA3E100B2ABBC /* global.png */; };
+		7488BDFF265FA6CE00B2ABBC /* r&b_now.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDFA265FA6CD00B2ABBC /* r&b_now.png */; };
+		7488BE00265FA6CE00B2ABBC /* today_s_hit.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDFB265FA6CE00B2ABBC /* today_s_hit.png */; };
+		7488BE01265FA6CE00B2ABBC /* rap_life_.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDFC265FA6CE00B2ABBC /* rap_life_.png */; };
+		7488BE02265FA6CE00B2ABBC /* relax_kpop.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDFD265FA6CE00B2ABBC /* relax_kpop.png */; };
+		7488BE03265FA6CE00B2ABBC /* alist_kpop.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BDFE265FA6CE00B2ABBC /* alist_kpop.png */; };
+		7488BE07265FA6F500B2ABBC /* UpdatePlaylistCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BE05265FA6F500B2ABBC /* UpdatePlaylistCVC.swift */; };
+		7488BE08265FA6F500B2ABBC /* UpdatePlaylistCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE06265FA6F500B2ABBC /* UpdatePlaylistCVC.xib */; };
+		7488BE0E265FAD4600B2ABBC /* EditorListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BE0C265FAD4600B2ABBC /* EditorListCVC.swift */; };
+		7488BE0F265FAD4600B2ABBC /* EditorListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE0D265FAD4600B2ABBC /* EditorListCVC.xib */; };
+		7488BE18265FAE5600B2ABBC /* black_skirt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE12265FAE5500B2ABBC /* black_skirt.png */; };
+		7488BE19265FAE5600B2ABBC /* ion.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE13265FAE5500B2ABBC /* ion.png */; };
+		7488BE1A265FAE5600B2ABBC /* itzy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE14265FAE5600B2ABBC /* itzy.png */; };
+		7488BE1B265FAE5600B2ABBC /* dj_khaled.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE15265FAE5600B2ABBC /* dj_khaled.png */; };
+		7488BE1C265FAE5600B2ABBC /* sokodomo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE16265FAE5600B2ABBC /* sokodomo.png */; };
+		7488BE1D265FAE5600B2ABBC /* j_cole.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE17265FAE5600B2ABBC /* j_cole.png */; };
+		7488BE21265FB00900B2ABBC /* ReleaseListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488BE1F265FB00900B2ABBC /* ReleaseListCVC.swift */; };
+		7488BE22265FB00900B2ABBC /* ReleaseListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE20265FB00900B2ABBC /* ReleaseListCVC.xib */; };
+		7488BE2B265FB17900B2ABBC /* san_holo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE25265FB17800B2ABBC /* san_holo.png */; };
+		7488BE2C265FB17900B2ABBC /* japanese.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE26265FB17800B2ABBC /* japanese.png */; };
+		7488BE2D265FB17900B2ABBC /* rostam.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE27265FB17900B2ABBC /* rostam.png */; };
+		7488BE2E265FB17900B2ABBC /* clay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE28265FB17900B2ABBC /* clay.png */; };
+		7488BE2F265FB17900B2ABBC /* billie_eilish.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE29265FB17900B2ABBC /* billie_eilish.png */; };
+		7488BE30265FB17900B2ABBC /* jp.png in Resources */ = {isa = PBXBuildFile; fileRef = 7488BE2A265FB17900B2ABBC /* jp.png */; };
 		7491A0CD2656479A003DF54D /* ContentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7491A0CB2656479A003DF54D /* ContentsTVC.swift */; };
 		7491A0CE2656479A003DF54D /* ContentsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7491A0CC2656479A003DF54D /* ContentsTVC.xib */; };
 		74CA1014264CD028007737F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA1013264CD028007737F1 /* AppDelegate.swift */; };
@@ -127,14 +200,87 @@
 		747FFD2026558950006C5F49 /* UpdatePlayListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatePlayListTVC.xib; sourceTree = "<group>"; };
 		747FFD2426558968006C5F49 /* EditorPickListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorPickListTVC.swift; sourceTree = "<group>"; };
 		747FFD2526558968006C5F49 /* EditorPickListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorPickListTVC.xib; sourceTree = "<group>"; };
-		747FFD292655897D006C5F49 /* TravelDayTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDayTVC.swift; sourceTree = "<group>"; };
-		747FFD2A2655897D006C5F49 /* TravelDayTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelDayTVC.xib; sourceTree = "<group>"; };
 		747FFD2E2655898C006C5F49 /* InterviewListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewListTVC.swift; sourceTree = "<group>"; };
 		747FFD2F2655898C006C5F49 /* InterviewListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InterviewListTVC.xib; sourceTree = "<group>"; };
 		747FFD33265589A1006C5F49 /* ReleasePlanListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleasePlanListTVC.swift; sourceTree = "<group>"; };
 		747FFD34265589A1006C5F49 /* ReleasePlanListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReleasePlanListTVC.xib; sourceTree = "<group>"; };
 		747FFD38265589B4006C5F49 /* MoreContentsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreContentsTVC.swift; sourceTree = "<group>"; };
 		747FFD39265589B4006C5F49 /* MoreContentsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreContentsTVC.xib; sourceTree = "<group>"; };
+		7488BD7B265F8D9D00B2ABBC /* RecentMusicListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMusicListCVC.swift; sourceTree = "<group>"; };
+		7488BD7C265F8D9D00B2ABBC /* RecentMusicListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentMusicListCVC.xib; sourceTree = "<group>"; };
+		7488BD81265F906C00B2ABBC /* sunset_blvd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset_blvd.png; sourceTree = "<group>"; };
+		7488BD82265F906C00B2ABBC /* co_ep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = co_ep.png; sourceTree = "<group>"; };
+		7488BD83265F906C00B2ABBC /* sour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sour.png; sourceTree = "<group>"; };
+		7488BD84265F906C00B2ABBC /* gemini_single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gemini_single.png; sourceTree = "<group>"; };
+		7488BD85265F906C00B2ABBC /* azeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = azeb.png; sourceTree = "<group>"; };
+		7488BD86265F906D00B2ABBC /* happen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happen.png; sourceTree = "<group>"; };
+		7488BD87265F906D00B2ABBC /* 모트.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "모트.png"; sourceTree = "<group>"; };
+		7488BD88265F906D00B2ABBC /* cherry_coke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry_coke.png; sourceTree = "<group>"; };
+		7488BD89265F906D00B2ABBC /* destination_single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destination_single.png; sourceTree = "<group>"; };
+		7488BD8A265F906D00B2ABBC /* five_ep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five_ep.png; sourceTree = "<group>"; };
+		7488BD8B265F906D00B2ABBC /* wonder_ep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wonder_ep.png; sourceTree = "<group>"; };
+		7488BD8C265F906D00B2ABBC /* view_single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view_single.png; sourceTree = "<group>"; };
+		7488BD8D265F906D00B2ABBC /* the_other_side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_other_side.png; sourceTree = "<group>"; };
+		7488BD9C265F916100B2ABBC /* summer_in_snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summer_in_snow.png; sourceTree = "<group>"; };
+		7488BDA0265F974A00B2ABBC /* fighting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fighting.png; sourceTree = "<group>"; };
+		7488BDA1265F974B00B2ABBC /* happiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happiness.png; sourceTree = "<group>"; };
+		7488BDA2265F974B00B2ABBC /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
+		7488BDA3265F974B00B2ABBC /* party.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = party.png; sourceTree = "<group>"; };
+		7488BDA4265F974B00B2ABBC /* rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rest.png; sourceTree = "<group>"; };
+		7488BDA5265F974B00B2ABBC /* fitness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fitness.png; sourceTree = "<group>"; };
+		7488BDAD265F977700B2ABBC /* MoodMusicCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMusicCVC.swift; sourceTree = "<group>"; };
+		7488BDAE265F977700B2ABBC /* MoodMusicCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoodMusicCVC.xib; sourceTree = "<group>"; };
+		7488BDB3265F99F500B2ABBC /* RadioListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioListCVC.swift; sourceTree = "<group>"; };
+		7488BDB4265F99F500B2ABBC /* RadioListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RadioListCVC.xib; sourceTree = "<group>"; };
+		7488BDB9265F9C0200B2ABBC /* apple_music1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_music1.png; sourceTree = "<group>"; };
+		7488BDBA265F9C0200B2ABBC /* with_sandra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = with_sandra.png; sourceTree = "<group>"; };
+		7488BDBB265F9C0200B2ABBC /* with_ebro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = with_ebro.png; sourceTree = "<group>"; };
+		7488BDBC265F9C0200B2ABBC /* with_kelleigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = with_kelleigh.png; sourceTree = "<group>"; };
+		7488BDBD265F9C0200B2ABBC /* with_nadeska.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = with_nadeska.png; sourceTree = "<group>"; };
+		7488BDBE265F9C0200B2ABBC /* pure_throwback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pure_throwback.png; sourceTree = "<group>"; };
+		7488BDBF265F9C0200B2ABBC /* apple_music_hits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple_music_hits.png; sourceTree = "<group>"; };
+		7488BDC0265F9C0200B2ABBC /* back_porch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_porch.png; sourceTree = "<group>"; };
+		7488BDCD265F9E2500B2ABBC /* CityChartCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityChartCVC.swift; sourceTree = "<group>"; };
+		7488BDCE265F9E2500B2ABBC /* CityChartCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityChartCVC.xib; sourceTree = "<group>"; };
+		7488BDD3265F9F3300B2ABBC /* tokyo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tokyo.png; sourceTree = "<group>"; };
+		7488BDD4265F9F3300B2ABBC /* newYork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newYork.png; sourceTree = "<group>"; };
+		7488BDD5265F9F3300B2ABBC /* busan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busan.png; sourceTree = "<group>"; };
+		7488BDD6265F9F3300B2ABBC /* berlin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = berlin.png; sourceTree = "<group>"; };
+		7488BDD7265F9F3300B2ABBC /* paris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paris.png; sourceTree = "<group>"; };
+		7488BDD8265F9F3300B2ABBC /* seoul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seoul.png; sourceTree = "<group>"; };
+		7488BDD9265F9F3300B2ABBC /* losangeles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = losangeles.png; sourceTree = "<group>"; };
+		7488BDDA265F9F3400B2ABBC /* london.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = london.png; sourceTree = "<group>"; };
+		7488BDE4265FA36C00B2ABBC /* TopHunrdredCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHunrdredCVC.swift; sourceTree = "<group>"; };
+		7488BDE5265FA36C00B2ABBC /* TopHunrdredCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopHunrdredCVC.xib; sourceTree = "<group>"; };
+		7488BDEB265FA3E000B2ABBC /* korea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = korea.png; sourceTree = "<group>"; };
+		7488BDEC265FA3E000B2ABBC /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan.png; sourceTree = "<group>"; };
+		7488BDED265FA3E100B2ABBC /* canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canada.png; sourceTree = "<group>"; };
+		7488BDEE265FA3E100B2ABBC /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
+		7488BDEF265FA3E100B2ABBC /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		7488BDF0265FA3E100B2ABBC /* global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = global.png; sourceTree = "<group>"; };
+		7488BDFA265FA6CD00B2ABBC /* r&b_now.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "r&b_now.png"; sourceTree = "<group>"; };
+		7488BDFB265FA6CE00B2ABBC /* today_s_hit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today_s_hit.png; sourceTree = "<group>"; };
+		7488BDFC265FA6CE00B2ABBC /* rap_life_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rap_life_.png; sourceTree = "<group>"; };
+		7488BDFD265FA6CE00B2ABBC /* relax_kpop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = relax_kpop.png; sourceTree = "<group>"; };
+		7488BDFE265FA6CE00B2ABBC /* alist_kpop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alist_kpop.png; sourceTree = "<group>"; };
+		7488BE05265FA6F500B2ABBC /* UpdatePlaylistCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePlaylistCVC.swift; sourceTree = "<group>"; };
+		7488BE06265FA6F500B2ABBC /* UpdatePlaylistCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdatePlaylistCVC.xib; sourceTree = "<group>"; };
+		7488BE0C265FAD4600B2ABBC /* EditorListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorListCVC.swift; sourceTree = "<group>"; };
+		7488BE0D265FAD4600B2ABBC /* EditorListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorListCVC.xib; sourceTree = "<group>"; };
+		7488BE12265FAE5500B2ABBC /* black_skirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_skirt.png; sourceTree = "<group>"; };
+		7488BE13265FAE5500B2ABBC /* ion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ion.png; sourceTree = "<group>"; };
+		7488BE14265FAE5600B2ABBC /* itzy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itzy.png; sourceTree = "<group>"; };
+		7488BE15265FAE5600B2ABBC /* dj_khaled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dj_khaled.png; sourceTree = "<group>"; };
+		7488BE16265FAE5600B2ABBC /* sokodomo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sokodomo.png; sourceTree = "<group>"; };
+		7488BE17265FAE5600B2ABBC /* j_cole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j_cole.png; sourceTree = "<group>"; };
+		7488BE1F265FB00900B2ABBC /* ReleaseListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseListCVC.swift; sourceTree = "<group>"; };
+		7488BE20265FB00900B2ABBC /* ReleaseListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReleaseListCVC.xib; sourceTree = "<group>"; };
+		7488BE25265FB17800B2ABBC /* san_holo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = san_holo.png; sourceTree = "<group>"; };
+		7488BE26265FB17800B2ABBC /* japanese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japanese.png; sourceTree = "<group>"; };
+		7488BE27265FB17900B2ABBC /* rostam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rostam.png; sourceTree = "<group>"; };
+		7488BE28265FB17900B2ABBC /* clay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clay.png; sourceTree = "<group>"; };
+		7488BE29265FB17900B2ABBC /* billie_eilish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = billie_eilish.png; sourceTree = "<group>"; };
+		7488BE2A265FB17900B2ABBC /* jp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jp.png; sourceTree = "<group>"; };
 		7491A0CB2656479A003DF54D /* ContentsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentsTVC.swift; sourceTree = "<group>"; };
 		7491A0CC2656479A003DF54D /* ContentsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentsTVC.xib; sourceTree = "<group>"; };
 		74CA1010264CD028007737F1 /* AppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,13 +336,122 @@
 				742A7BBF265EA74B0027DDAE /* BannerListCVC.xib */,
 				742A7BD7265EB8B80027DDAE /* SpotListCVC.swift */,
 				742A7BD8265EB8B80027DDAE /* SpotListCVC.xib */,
+				7488BDAD265F977700B2ABBC /* MoodMusicCVC.swift */,
+				7488BDAE265F977700B2ABBC /* MoodMusicCVC.xib */,
 				742A7BED265EC1460027DDAE /* HealingListCVC.swift */,
 				742A7BEE265EC1460027DDAE /* HealingListCVC.xib */,
+				7488BD7B265F8D9D00B2ABBC /* RecentMusicListCVC.swift */,
+				7488BD7C265F8D9D00B2ABBC /* RecentMusicListCVC.xib */,
+				7488BDB3265F99F500B2ABBC /* RadioListCVC.swift */,
+				7488BDB4265F99F500B2ABBC /* RadioListCVC.xib */,
+				7488BDCD265F9E2500B2ABBC /* CityChartCVC.swift */,
+				7488BDCE265F9E2500B2ABBC /* CityChartCVC.xib */,
+				7488BDE4265FA36C00B2ABBC /* TopHunrdredCVC.swift */,
+				7488BDE5265FA36C00B2ABBC /* TopHunrdredCVC.xib */,
+				7488BE05265FA6F500B2ABBC /* UpdatePlaylistCVC.swift */,
+				7488BE06265FA6F500B2ABBC /* UpdatePlaylistCVC.xib */,
+				7488BE0C265FAD4600B2ABBC /* EditorListCVC.swift */,
+				7488BE0D265FAD4600B2ABBC /* EditorListCVC.xib */,
+				7488BE1F265FB00900B2ABBC /* ReleaseListCVC.swift */,
+				7488BE20265FB00900B2ABBC /* ReleaseListCVC.xib */,
 			);
 			path = MainCVC;
 			sourceTree = "<group>";
 		};
 		742A7BD5265EB86B0027DDAE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7488BE24265FB15800B2ABBC /* release_plan */,
+				7488BE11265FAE3E00B2ABBC /* editor_pick */,
+				7488BDF9265FA6B800B2ABBC /* update_playlist */,
+				7488BDE9265FA37100B2ABBC /* Top100 */,
+				7488BDD2265F9F2900B2ABBC /* city_list */,
+				7488BDCC265F9DC800B2ABBC /* healing_music */,
+				7488BDCB265F9DA300B2ABBC /* spot_list */,
+				7488BDCA265F9D6100B2ABBC /* top_banner */,
+				7488BDB8265F9BF400B2ABBC /* radio */,
+				7488BD9F265F96B800B2ABBC /* mood_list */,
+				7488BD80265F903F00B2ABBC /* recent_music */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		7488BD80265F903F00B2ABBC /* recent_music */ = {
+			isa = PBXGroup;
+			children = (
+				7488BD9C265F916100B2ABBC /* summer_in_snow.png */,
+				7488BD87265F906D00B2ABBC /* 모트.png */,
+				7488BD85265F906C00B2ABBC /* azeb.png */,
+				7488BD88265F906D00B2ABBC /* cherry_coke.png */,
+				7488BD82265F906C00B2ABBC /* co_ep.png */,
+				7488BD89265F906D00B2ABBC /* destination_single.png */,
+				7488BD8A265F906D00B2ABBC /* five_ep.png */,
+				7488BD84265F906C00B2ABBC /* gemini_single.png */,
+				7488BD86265F906D00B2ABBC /* happen.png */,
+				7488BD83265F906C00B2ABBC /* sour.png */,
+				7488BD81265F906C00B2ABBC /* sunset_blvd.png */,
+				7488BD8D265F906D00B2ABBC /* the_other_side.png */,
+				7488BD8C265F906D00B2ABBC /* view_single.png */,
+				7488BD8B265F906D00B2ABBC /* wonder_ep.png */,
+			);
+			path = recent_music;
+			sourceTree = "<group>";
+		};
+		7488BD9F265F96B800B2ABBC /* mood_list */ = {
+			isa = PBXGroup;
+			children = (
+				7488BDA0265F974A00B2ABBC /* fighting.png */,
+				7488BDA5265F974B00B2ABBC /* fitness.png */,
+				7488BDA1265F974B00B2ABBC /* happiness.png */,
+				7488BDA2265F974B00B2ABBC /* main.png */,
+				7488BDA3265F974B00B2ABBC /* party.png */,
+				7488BDA4265F974B00B2ABBC /* rest.png */,
+			);
+			path = mood_list;
+			sourceTree = "<group>";
+		};
+		7488BDB8265F9BF400B2ABBC /* radio */ = {
+			isa = PBXGroup;
+			children = (
+				7488BDBF265F9C0200B2ABBC /* apple_music_hits.png */,
+				7488BDB9265F9C0200B2ABBC /* apple_music1.png */,
+				7488BDC0265F9C0200B2ABBC /* back_porch.png */,
+				7488BDBE265F9C0200B2ABBC /* pure_throwback.png */,
+				7488BDBB265F9C0200B2ABBC /* with_ebro.png */,
+				7488BDBC265F9C0200B2ABBC /* with_kelleigh.png */,
+				7488BDBD265F9C0200B2ABBC /* with_nadeska.png */,
+				7488BDBA265F9C0200B2ABBC /* with_sandra.png */,
+			);
+			path = radio;
+			sourceTree = "<group>";
+		};
+		7488BDCA265F9D6100B2ABBC /* top_banner */ = {
+			isa = PBXGroup;
+			children = (
+				742A7BCD265EB6510027DDAE /* new_album.PNG */,
+				742A7BCE265EB6510027DDAE /* new_trend.PNG */,
+				742A7BCB265EB6510027DDAE /* now_playing.PNG */,
+				742A7BCC265EB6510027DDAE /* today_hit.PNG */,
+			);
+			path = top_banner;
+			sourceTree = "<group>";
+		};
+		7488BDCB265F9DA300B2ABBC /* spot_list */ = {
+			isa = PBXGroup;
+			children = (
+				742A7BDF265EBB050027DDAE /* alt_ctrl.png */,
+				742A7BDE265EBB050027DDAE /* danceXL.png */,
+				742A7BE3265EBB060027DDAE /* for_morning.png */,
+				742A7BDD265EBB050027DDAE /* for_rest.png */,
+				742A7BE0265EBB050027DDAE /* for_sleeping.png */,
+				742A7BDC265EBB050027DDAE /* k_pop.png */,
+				742A7BE1265EBB050027DDAE /* rap_life.png */,
+				742A7BE2265EBB050027DDAE /* today's_hit.png */,
+			);
+			path = spot_list;
+			sourceTree = "<group>";
+		};
+		7488BDCC265F9DC800B2ABBC /* healing_music */ = {
 			isa = PBXGroup;
 			children = (
 				742A7BF4265EC33E0027DDAE /* all_day_dance.png */,
@@ -207,26 +462,79 @@
 				742A7BF3265EC33E0027DDAE /* it's_lit.png */,
 				742A7BF6265EC33E0027DDAE /* kids_dance.png */,
 				742A7BF2265EC33D0027DDAE /* summer_hot.png */,
-				742A7BDF265EBB050027DDAE /* alt_ctrl.png */,
-				742A7BDE265EBB050027DDAE /* danceXL.png */,
-				742A7BE3265EBB060027DDAE /* for_morning.png */,
-				742A7BDD265EBB050027DDAE /* for_rest.png */,
-				742A7BE0265EBB050027DDAE /* for_sleeping.png */,
-				742A7BDC265EBB050027DDAE /* k_pop.png */,
-				742A7BE1265EBB050027DDAE /* rap_life.png */,
-				742A7BE2265EBB050027DDAE /* today's_hit.png */,
-				742A7BCD265EB6510027DDAE /* new_album.PNG */,
-				742A7BCE265EB6510027DDAE /* new_trend.PNG */,
-				742A7BCB265EB6510027DDAE /* now_playing.PNG */,
-				742A7BCC265EB6510027DDAE /* today_hit.PNG */,
 			);
-			path = image;
+			path = healing_music;
+			sourceTree = "<group>";
+		};
+		7488BDD2265F9F2900B2ABBC /* city_list */ = {
+			isa = PBXGroup;
+			children = (
+				7488BDD6265F9F3300B2ABBC /* berlin.png */,
+				7488BDD5265F9F3300B2ABBC /* busan.png */,
+				7488BDDA265F9F3400B2ABBC /* london.png */,
+				7488BDD9265F9F3300B2ABBC /* losangeles.png */,
+				7488BDD4265F9F3300B2ABBC /* newYork.png */,
+				7488BDD7265F9F3300B2ABBC /* paris.png */,
+				7488BDD8265F9F3300B2ABBC /* seoul.png */,
+				7488BDD3265F9F3300B2ABBC /* tokyo.png */,
+			);
+			path = city_list;
+			sourceTree = "<group>";
+		};
+		7488BDE9265FA37100B2ABBC /* Top100 */ = {
+			isa = PBXGroup;
+			children = (
+				7488BDED265FA3E100B2ABBC /* canada.png */,
+				7488BDF0265FA3E100B2ABBC /* global.png */,
+				7488BDEC265FA3E000B2ABBC /* japan.png */,
+				7488BDEB265FA3E000B2ABBC /* korea.png */,
+				7488BDEE265FA3E100B2ABBC /* uk.png */,
+				7488BDEF265FA3E100B2ABBC /* usa.png */,
+			);
+			path = Top100;
+			sourceTree = "<group>";
+		};
+		7488BDF9265FA6B800B2ABBC /* update_playlist */ = {
+			isa = PBXGroup;
+			children = (
+				7488BDFE265FA6CE00B2ABBC /* alist_kpop.png */,
+				7488BDFA265FA6CD00B2ABBC /* r&b_now.png */,
+				7488BDFC265FA6CE00B2ABBC /* rap_life_.png */,
+				7488BDFD265FA6CE00B2ABBC /* relax_kpop.png */,
+				7488BDFB265FA6CE00B2ABBC /* today_s_hit.png */,
+			);
+			path = update_playlist;
+			sourceTree = "<group>";
+		};
+		7488BE11265FAE3E00B2ABBC /* editor_pick */ = {
+			isa = PBXGroup;
+			children = (
+				7488BE12265FAE5500B2ABBC /* black_skirt.png */,
+				7488BE15265FAE5600B2ABBC /* dj_khaled.png */,
+				7488BE13265FAE5500B2ABBC /* ion.png */,
+				7488BE14265FAE5600B2ABBC /* itzy.png */,
+				7488BE17265FAE5600B2ABBC /* j_cole.png */,
+				7488BE16265FAE5600B2ABBC /* sokodomo.png */,
+			);
+			path = editor_pick;
+			sourceTree = "<group>";
+		};
+		7488BE24265FB15800B2ABBC /* release_plan */ = {
+			isa = PBXGroup;
+			children = (
+				7488BE29265FB17900B2ABBC /* billie_eilish.png */,
+				7488BE28265FB17900B2ABBC /* clay.png */,
+				7488BE26265FB17800B2ABBC /* japanese.png */,
+				7488BE2A265FB17900B2ABBC /* jp.png */,
+				7488BE27265FB17900B2ABBC /* rostam.png */,
+				7488BE25265FB17800B2ABBC /* san_holo.png */,
+			);
+			path = release_plan;
 			sourceTree = "<group>";
 		};
 		7491A0C92656475F003DF54D /* MainTVC */ = {
 			isa = PBXGroup;
 			children = (
-				742A7BD5265EB86B0027DDAE /* image */,
 				747FFCD726556861006C5F49 /* MainBannerTVC.swift */,
 				747FFCD826556861006C5F49 /* MainBannerTVC.xib */,
 				742A7BC5265EA9C80027DDAE /* TopBannerListTVC.swift */,
@@ -251,8 +559,6 @@
 				747FFD2026558950006C5F49 /* UpdatePlayListTVC.xib */,
 				747FFD2426558968006C5F49 /* EditorPickListTVC.swift */,
 				747FFD2526558968006C5F49 /* EditorPickListTVC.xib */,
-				747FFD292655897D006C5F49 /* TravelDayTVC.swift */,
-				747FFD2A2655897D006C5F49 /* TravelDayTVC.xib */,
 				747FFD2E2655898C006C5F49 /* InterviewListTVC.swift */,
 				747FFD2F2655898C006C5F49 /* InterviewListTVC.xib */,
 				747FFD33265589A1006C5F49 /* ReleasePlanListTVC.swift */,
@@ -295,6 +601,7 @@
 				74CA1015264CD028007737F1 /* SceneDelegate.swift */,
 				747FFCD22655600E006C5F49 /* MainVC.swift */,
 				74CA1019264CD028007737F1 /* Main.storyboard */,
+				742A7BD5265EB86B0027DDAE /* image */,
 				7412C3C5264CF05800F0D9B6 /* Cell */,
 				74CA101C264CD029007737F1 /* Assets.xcassets */,
 				74CA101E264CD029007737F1 /* LaunchScreen.storyboard */,
@@ -360,49 +667,115 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7488BD98265F906D00B2ABBC /* wonder_ep.png in Resources */,
+				7488BE0F265FAD4600B2ABBC /* EditorListCVC.xib in Resources */,
+				7488BD94265F906D00B2ABBC /* 모트.png in Resources */,
 				74CA1020264CD029007737F1 /* LaunchScreen.storyboard in Resources */,
 				742A7BE9265EBB060027DDAE /* rap_life.png in Resources */,
+				7488BD90265F906D00B2ABBC /* sour.png in Resources */,
+				7488BDC6265F9C0200B2ABBC /* pure_throwback.png in Resources */,
 				742A7BD0265EB6510027DDAE /* today_hit.PNG in Resources */,
+				7488BDF3265FA3E100B2ABBC /* canada.png in Resources */,
 				742A7BD1265EB6510027DDAE /* new_album.PNG in Resources */,
+				7488BE1B265FAE5600B2ABBC /* dj_khaled.png in Resources */,
 				742A7BC1265EA74B0027DDAE /* BannerListCVC.xib in Resources */,
+				7488BDA9265F974B00B2ABBC /* party.png in Resources */,
+				7488BE2D265FB17900B2ABBC /* rostam.png in Resources */,
 				742A7C00265EC33E0027DDAE /* hiphop.png in Resources */,
+				7488BDDD265F9F3400B2ABBC /* busan.png in Resources */,
+				7488BD9A265F906D00B2ABBC /* the_other_side.png in Resources */,
+				7488BD93265F906D00B2ABBC /* happen.png in Resources */,
 				742A7BE8265EBB060027DDAE /* for_sleeping.png in Resources */,
 				747FFD1D2655893B006C5F49 /* TopHundredListTVC.xib in Resources */,
+				7488BDC5265F9C0200B2ABBC /* with_nadeska.png in Resources */,
 				742A7BCF265EB6510027DDAE /* now_playing.PNG in Resources */,
+				7488BDD0265F9E2500B2ABBC /* CityChartCVC.xib in Resources */,
 				747FFD1326558911006C5F49 /* RadioListTVC.xib in Resources */,
+				7488BE1D265FAE5600B2ABBC /* j_cole.png in Resources */,
+				7488BE1C265FAE5600B2ABBC /* sokodomo.png in Resources */,
+				7488BDC7265F9C0200B2ABBC /* apple_music_hits.png in Resources */,
+				7488BD8E265F906D00B2ABBC /* sunset_blvd.png in Resources */,
+				7488BD96265F906D00B2ABBC /* destination_single.png in Resources */,
+				7488BDDB265F9F3400B2ABBC /* tokyo.png in Resources */,
+				7488BE08265FA6F500B2ABBC /* UpdatePlaylistCVC.xib in Resources */,
+				7488BDC2265F9C0200B2ABBC /* with_sandra.png in Resources */,
 				742A7BD2265EB6510027DDAE /* new_trend.PNG in Resources */,
+				7488BE1A265FAE5600B2ABBC /* itzy.png in Resources */,
 				742A7BFB265EC33E0027DDAE /* it's_lit.png in Resources */,
+				7488BE22265FB00900B2ABBC /* ReleaseListCVC.xib in Resources */,
 				747FFCFB26557C2E006C5F49 /* RecentMusicListTVC.xib in Resources */,
+				7488BDA8265F974B00B2ABBC /* main.png in Resources */,
 				74CA101D264CD029007737F1 /* Assets.xcassets in Resources */,
 				742A7BC8265EA9C80027DDAE /* TopBannerListTVC.xib in Resources */,
+				7488BDF6265FA3E100B2ABBC /* global.png in Resources */,
 				742A7BE6265EBB060027DDAE /* danceXL.png in Resources */,
+				7488BDF4265FA3E100B2ABBC /* uk.png in Resources */,
+				7488BDF2265FA3E100B2ABBC /* japan.png in Resources */,
+				7488BDC4265F9C0200B2ABBC /* with_kelleigh.png in Resources */,
+				7488BD95265F906D00B2ABBC /* cherry_coke.png in Resources */,
+				7488BE18265FAE5600B2ABBC /* black_skirt.png in Resources */,
+				7488BDDC265F9F3400B2ABBC /* newYork.png in Resources */,
+				7488BDDE265F9F3400B2ABBC /* berlin.png in Resources */,
 				747FFD2226558950006C5F49 /* UpdatePlayListTVC.xib in Resources */,
 				747FFCEF2655702A006C5F49 /* HealingMusicTVC.xib in Resources */,
+				7488BDA6265F974B00B2ABBC /* fighting.png in Resources */,
 				747FFD36265589A1006C5F49 /* ReleasePlanListTVC.xib in Resources */,
 				747FFD3B265589B4006C5F49 /* MoreContentsTVC.xib in Resources */,
 				742A7BE5265EBB060027DDAE /* for_rest.png in Resources */,
 				747FFCDA26556861006C5F49 /* MainBannerTVC.xib in Resources */,
+				7488BDE2265F9F3400B2ABBC /* london.png in Resources */,
 				742A7BFF265EC33E0027DDAE /* every_vaca.png in Resources */,
+				7488BE03265FA6CE00B2ABBC /* alist_kpop.png in Resources */,
 				747FFD1826558927006C5F49 /* ForCityChartTVC.xib in Resources */,
 				742A7C01265EC33E0027DDAE /* free_country.png in Resources */,
+				7488BDC8265F9C0200B2ABBC /* back_porch.png in Resources */,
 				742A7BFE265EC33E0027DDAE /* kids_dance.png in Resources */,
 				742A7BEA265EBB060027DDAE /* today's_hit.png in Resources */,
-				747FFD2C2655897D006C5F49 /* TravelDayTVC.xib in Resources */,
+				7488BDAA265F974B00B2ABBC /* rest.png in Resources */,
+				7488BD8F265F906D00B2ABBC /* co_ep.png in Resources */,
+				7488BE30265FB17900B2ABBC /* jp.png in Resources */,
+				7488BE2F265FB17900B2ABBC /* billie_eilish.png in Resources */,
+				7488BD91265F906D00B2ABBC /* gemini_single.png in Resources */,
+				7488BE2B265FB17900B2ABBC /* san_holo.png in Resources */,
+				7488BD97265F906D00B2ABBC /* five_ep.png in Resources */,
+				7488BD99265F906D00B2ABBC /* view_single.png in Resources */,
 				747FFD2726558968006C5F49 /* EditorPickListTVC.xib in Resources */,
+				7488BD7E265F8D9D00B2ABBC /* RecentMusicListCVC.xib in Resources */,
+				7488BE2C265FB17900B2ABBC /* japanese.png in Resources */,
 				742A7BFA265EC33E0027DDAE /* summer_hot.png in Resources */,
 				747FFCE526556FFF006C5F49 /* OurSpotListTVC.xib in Resources */,
+				7488BDDF265F9F3400B2ABBC /* paris.png in Resources */,
+				7488BD9D265F916100B2ABBC /* summer_in_snow.png in Resources */,
+				7488BDF5265FA3E100B2ABBC /* usa.png in Resources */,
 				7491A0CE2656479A003DF54D /* ContentsTVC.xib in Resources */,
+				7488BDC3265F9C0200B2ABBC /* with_ebro.png in Resources */,
 				747FFD312655898C006C5F49 /* InterviewListTVC.xib in Resources */,
+				7488BE01265FA6CE00B2ABBC /* rap_life_.png in Resources */,
 				742A7BF0265EC1460027DDAE /* HealingListCVC.xib in Resources */,
+				7488BDE7265FA36C00B2ABBC /* TopHunrdredCVC.xib in Resources */,
 				742A7BFC265EC33E0027DDAE /* all_day_dance.png in Resources */,
 				742A7BE4265EBB060027DDAE /* k_pop.png in Resources */,
+				7488BDB6265F99F500B2ABBC /* RadioListCVC.xib in Resources */,
+				7488BDE1265F9F3400B2ABBC /* losangeles.png in Resources */,
+				7488BD92265F906D00B2ABBC /* azeb.png in Resources */,
 				747FFCEA26557015006C5F49 /* MoodMusicTVC.xib in Resources */,
 				747FFD0D2655809C006C5F49 /* HotRecentMusicTVC.xib in Resources */,
+				7488BDC1265F9C0200B2ABBC /* apple_music1.png in Resources */,
 				742A7BFD265EC33E0027DDAE /* dance_music.png in Resources */,
+				7488BDE0265F9F3400B2ABBC /* seoul.png in Resources */,
+				7488BDAB265F974B00B2ABBC /* fitness.png in Resources */,
+				7488BE00265FA6CE00B2ABBC /* today_s_hit.png in Resources */,
+				7488BDA7265F974B00B2ABBC /* happiness.png in Resources */,
+				7488BE2E265FB17900B2ABBC /* clay.png in Resources */,
 				742A7BEB265EBB060027DDAE /* for_morning.png in Resources */,
+				7488BDB0265F977700B2ABBC /* MoodMusicCVC.xib in Resources */,
+				7488BDF1265FA3E100B2ABBC /* korea.png in Resources */,
+				7488BE19265FAE5600B2ABBC /* ion.png in Resources */,
 				742A7BDA265EB8B80027DDAE /* SpotListCVC.xib in Resources */,
 				742A7BE7265EBB060027DDAE /* alt_ctrl.png in Resources */,
+				7488BE02265FA6CE00B2ABBC /* relax_kpop.png in Resources */,
 				74CA101B264CD028007737F1 /* Main.storyboard in Resources */,
+				7488BDFF265FA6CE00B2ABBC /* r&b_now.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,24 +790,31 @@
 				747FFD0C2655809C006C5F49 /* HotRecentMusicTVC.swift in Sources */,
 				747FFD1C2655893B006C5F49 /* TopHundredListTVC.swift in Sources */,
 				747FFCD32655600E006C5F49 /* MainVC.swift in Sources */,
+				7488BDB5265F99F500B2ABBC /* RadioListCVC.swift in Sources */,
 				747FFD3A265589B4006C5F49 /* MoreContentsTVC.swift in Sources */,
 				747FFCD926556861006C5F49 /* MainBannerTVC.swift in Sources */,
+				7488BDCF265F9E2500B2ABBC /* CityChartCVC.swift in Sources */,
 				747FFCE926557015006C5F49 /* MoodMusicTVC.swift in Sources */,
 				7491A0CD2656479A003DF54D /* ContentsTVC.swift in Sources */,
-				747FFD2B2655897D006C5F49 /* TravelDayTVC.swift in Sources */,
 				747FFD1226558911006C5F49 /* RadioListTVC.swift in Sources */,
 				74CA1014264CD028007737F1 /* AppDelegate.swift in Sources */,
+				7488BE21265FB00900B2ABBC /* ReleaseListCVC.swift in Sources */,
 				747FFD35265589A1006C5F49 /* ReleasePlanListTVC.swift in Sources */,
 				742A7BD9265EB8B80027DDAE /* SpotListCVC.swift in Sources */,
 				747FFCE426556FFF006C5F49 /* OurSpotListTVC.swift in Sources */,
 				742A7BC7265EA9C80027DDAE /* TopBannerListTVC.swift in Sources */,
 				747FFCFA26557C2E006C5F49 /* RecentMusicListTVC.swift in Sources */,
+				7488BE0E265FAD4600B2ABBC /* EditorListCVC.swift in Sources */,
 				74CA1016264CD028007737F1 /* SceneDelegate.swift in Sources */,
 				747FFCEE2655702A006C5F49 /* HealingMusicTVC.swift in Sources */,
 				747FFD2126558950006C5F49 /* UpdatePlayListTVC.swift in Sources */,
 				747FFD1726558927006C5F49 /* ForCityChartTVC.swift in Sources */,
+				7488BDAF265F977700B2ABBC /* MoodMusicCVC.swift in Sources */,
 				742A7BC0265EA74B0027DDAE /* BannerListCVC.swift in Sources */,
+				7488BE07265FA6F500B2ABBC /* UpdatePlaylistCVC.swift in Sources */,
+				7488BD7D265F8D9D00B2ABBC /* RecentMusicListCVC.swift in Sources */,
 				742A7BEF265EC1460027DDAE /* HealingListCVC.swift in Sources */,
+				7488BDE6265FA36C00B2ABBC /* TopHunrdredCVC.swift in Sources */,
 				747FFD302655898C006C5F49 /* InterviewListTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
